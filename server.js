@@ -1,9 +1,8 @@
 const WebSocket = require('ws');
-const server = new WebSocket.Server({ port: process.env.PORT || 3000 });
-
 const dotenv = require("dotenv")
-
 dotenv.config()
+
+const server = new WebSocket.Server({ port: process.env.PORT || 3000 });
 
 let rooms = {};
 
