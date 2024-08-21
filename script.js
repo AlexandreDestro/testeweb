@@ -1,4 +1,4 @@
-const socket = new WebSocket('wss://testeweb-sooty.vercel.app/');
+const socket = new WebSocket('wss://testeweb-sooty.vercel.app');
 //const socket = new WebSocket('ws://localhost:3000');
 let currentRoom = null;
 
