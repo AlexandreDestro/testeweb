@@ -1,5 +1,5 @@
-const socket = new WebSocket('wss://testeweb-sooty.vercel.app');
-//const socket = new WebSocket('ws://localhost:3000');
+//const socket = new WebSocket('wss://testeweb-sooty.vercel.app');
+const socket = new WebSocket('wss://testeweb-y7ke.onrender.com');
 let currentRoom = null;
 
 socket.onopen = () => {
